@@ -22,6 +22,7 @@ public class RewardValueTests {
         var rewardValue = new RewardValue(cashValue);
         int expectedMiles = (int) Math.round(cashValue / 0.0035);
         assertEquals(expectedMiles, rewardValue.getMilesValue());
+
     }
 
     @Test
